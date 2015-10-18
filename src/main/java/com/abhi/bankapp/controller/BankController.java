@@ -20,7 +20,7 @@ public class BankController {
     
     @RequestMapping("/hello")
     public String hello() {
-        return "Greetings from Bank app!";
+        return "Greetings from Bank app!!";
     }
     
     @RequestMapping("/users/{userId}/accounts/{accountId}")
